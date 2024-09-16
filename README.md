@@ -8,8 +8,9 @@ In this approach, we perform interpolation in the latent space between a source 
 In this apporach we take two images, one as source and one as target, we perform feature extraction by leveraging pretrained resnet-18 architecture, then in the obtained feature vector we perform interpolation (cosine as well as linear) and pass this feature vector to the pretrained 3D Attribute Flow which reconstructs 3D point clouds, thereby generating diverse 3D point clouds from single view 2D RGB images.
 
 ## Results from Inter-class interpolation.
-![inter](https://github.com/Jatinkalal/3D-Content-Creation/blob/main/Images/2.gif)
+![inter](https://github.com/Jatinkalal/3D-Content-Creation/blob/main/Images/Plane2car.002.jpeg)
 Source is car and target is plane, dataset used was shapenet rendered images.
+
 ## Results from Intra-class interpolation.
 ![intra](https://github.com/Jatinkalal/3D-Content-Creation/blob/main/Images/1.gif)
 Source is car type1 and target is cartype2, dataset used was shapenet rendered images.

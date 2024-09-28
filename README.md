@@ -23,7 +23,7 @@ Here we combine the geomtric style from chair 1 along with semantic attributes o
 
 ## Results from varying parameters of latent vector
 ![len](https://github.com/Jatinkalal/3D-Content-Creation/blob/main/Images/PlaneLen.png)
-Here we vary the 5th dimension of the latent vector to observe changes in the length of the wings. <span style="color:red;">Red one</span> represents no varied parameter, hence no change in the length of the wings, while <span style="color:blue;">blue one</span> is with the 5th parameter varied to observe the change in the length of its wings.
+Here we vary the 5th dimension of the latent vector to observe changes in the length of the wings. **(Red one)** represents no varied parameter, hence no change in the length of the wings, while **(Blue one)** is with the 5th parameter varied to observe the change in the length of its wings.
 
 
 

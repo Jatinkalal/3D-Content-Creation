@@ -1,5 +1,5 @@
 # 3D-Content-Creation
-This repository focuses on generating diverse 3D point clouds from single-view 2D RGB images. The project utilizes a pretrained architecture known as 3D Attribute Flow to achieve this.
+This repository focuses on generating diverse 3D point clouds from single-view 2D RGB images. The project utilizes a pretrained architecture known as ![3D Attribute Flow](https://github.com/junshengzhou/3DAttriFlow) to achieve this.
 ## Introduction 
 In this approach, we perform interpolation in the latent space between a source and a target, enabling the generation of a wide range of 3D point clouds. This method leverages the capabilities of the pretrained model to produce diverse and visually appealing 3D content from 2D inputs.
 
@@ -17,7 +17,7 @@ Source is car type1 and target is cartype2, dataset used was shapenet rendered i
 
 ## Results from varying parameters of latent vector
 ![len](https://github.com/Jatinkalal/3D-Content-Creation/blob/main/Images/PlaneLen.png)
-Here we vary 5th dimension of the latent vector to observe change in the length of the wings, Red one represents no varied parameter, while green one is with paramter varied.
+Here we vary 5th dimension of the latent vector to observe change in the length of the wings, Red one represents no varied parameter hence no change in the length of the wings, while blue one is with  5th parameter varied to observe change in the length of its wings.
 
 
 

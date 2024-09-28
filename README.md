@@ -9,11 +9,11 @@ In this apporach we take two images, one as source and one as target, we perform
 
 ## Results from Inter-class interpolation.
 ![inter](https://github.com/Jatinkalal/3D-Content-Creation/blob/main/Images/Plane2car.002.jpeg)
-Source is car and target is plane and intermediate point clouds represent output from that interpolation step, dataset used was shapenet rendered images.
+Source is plane and target is car and intermediate point clouds represent output from that interpolation step, dataset used was shapenet rendered images.
 
 ## Results from Intra-class interpolation.
 ![intra](https://github.com/Jatinkalal/3D-Content-Creation/blob/main/Images/car2car.001.jpeg)
-Source is car type1 and target is cartype2 and intermediate point clouds represent output from that interpolation step,  dataset used was shapenet rendered images.
+Source is car type1 and target is car type2 and intermediate point clouds represent output from that interpolation step,  dataset used was shapenet rendered images.
 
 ## Results from combining geometric style and semantic attributes.
 ![combine](https://github.com/Jatinkalal/3D-Content-Creation/blob/main/Images/chair_combined2.001.jpeg)
